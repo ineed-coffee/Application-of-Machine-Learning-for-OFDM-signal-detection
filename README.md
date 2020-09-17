@@ -36,7 +36,7 @@
 
 - 전체 모델
 
-![NN](./assets/NN model IO.png)
+![NN](./assets/NN_model_IO.png)
 
 ## 인공신경망을 적용한 수신부 흐름
 
