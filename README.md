@@ -18,7 +18,7 @@
 
 ## 기존 송신 과정의 ISI 발생과 CP의 활용 
 
-![cp](./assets/cp.png) 
+![cp](./assets/cyclic_prefix.png) 
 
 ## 본 논문에서 인공신경망을 활용한 송·수신 과정 구상도
 
