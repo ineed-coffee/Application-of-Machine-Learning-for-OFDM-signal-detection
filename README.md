@@ -12,33 +12,47 @@
 
 
 
-## 기존 OFDM 시스템 전송 흐름
+## 기존 OFDM 시스템 전송 흐름 
+
+## (original OFDM communication flow)
 
 ![ofdm_flow](./assets/ofdm_flow.png)
 
-## 기존 송신 과정의 ISI 발생과 CP의 활용 
+## 기존 송신 과정의 ISI 발생과 CP의 활용
+
+## (ISI occurrence and usage of CP) 
 
 ![cp](./assets/cyclic_prefix.png) 
 
 ## 본 논문에서 인공신경망을 활용한 송·수신 과정 구상도
 
+### (Breif sketch of using ANN module between OFDM transmission-receiving)
+
+
+
 ![idea](./assets/idea.png)
 
 ## 제안하는 인공신경망의 입·출력 데이터 및 전체 모델 가시화
 
-- 입력 ( ISI 미발생 구간)
+### (Define ANN model input,output)
+
+- 입력 ( ISI 미발생 구간) 
+- input (signal without ISI)
 
 ![input](./assets/input.png)
 
 - 출력 (채널 정보와 함께 학습 후 정상신호 예측)
+- output (recovered signal from signal with ISI)
 
 ![output](./assets/output.png)
 
-- 전체 모델
+- 전체 모델 (ANN model flow)
 
 ![NN](./assets/NN_model_IO.png)
 
 ## 인공신경망을 적용한 수신부 흐름
+
+### (Proposed receiver using ANN module)
 
 ![ofdm_flow_ml](./assets/ofdm_flow_ml.png)
 
